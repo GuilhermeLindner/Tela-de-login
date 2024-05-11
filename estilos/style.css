@@ -60,6 +60,48 @@ h1, p{
     
 }
 
+form > input[type=submit] {
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 35px;
+    margin-top: 2px;
+    background-color: #374aac;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+form > input[type=submit]:hover{
+    background-color: #393f61;
+}
+
+form > a.botao{
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    height: 35px;
+    background-color: #5f689a;
+    border: 1px solid #5f689a;
+    border-radius: 10px;
+    color: white;
+    margin-top: 5px;
+}
+
+form > a.botao:hover{
+    background-color: #393f61;
+}
+
+form > a.botao > i{
+    font-size: 0.8em;
+}
+
 
 
 
